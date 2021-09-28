@@ -1,0 +1,228 @@
+.top{
+    font-size: 19px;
+    font-weight: 500;
+    height: 21px;
+    padding-left:628px ;
+    padding-top: 12px;
+    margin: -8px;
+    text-decoration: underline;
+    background-image:linear-gradient(to right,red,green, yellow);
+
+}
+.parent1{
+    height: 100px;
+    width: 571px;
+    margin-left: 370px;
+    margin-top: 35px;
+}
+.lis{
+    float:left;
+    
+    
+}
+.box{
+    height: 58px;
+    width: 264px;
+    border: 3px red solid;
+    margin-left: 42px;
+    margin-top: 13px;
+    padding-left: 227px;
+    border-radius: 10px;
+    background-color: rgb(178, 238, 238);
+    padding-top: 10px;
+    
+    
+}
+.block1{
+    height: 110px;
+    width: 340px;
+    border: 2px rgb(72, 72, 243) solid;
+    padding-left: 10px;
+    background-color: rgb(207, 184, 228);
+    border-radius: 10px;
+}  
+.block2{
+    height: 110px;
+    width: 340px;
+    border: 2px rgb(72, 72, 243) solid;
+    padding-left: 10px;
+    background-color: rgb(207, 184, 228);
+    border-radius: 10px;
+}  
+.block3{
+    height: 110px;
+    width: 340px;
+    border: 2px rgb(72, 72, 243) solid;
+    padding-left: 10px;
+    background-color: rgb(207, 184, 228);
+    border-radius: 10px;
+}  
+.parent2{
+    border: 3px black solid;
+    border-radius:10px;
+    margin-left: -7px;
+    margin-right: -7px;
+    background-color: rgb(209, 209, 243);
+
+}
+.block{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.block4{
+height: 110px;
+width: 340px;
+border: 2px rgb(72, 72, 243) solid;
+padding-left: 10px;
+background-color: rgb(207, 184, 228);
+border-radius: 10px;
+margin-left: 496px;
+}  
+.topper{
+    font-size: 20px;
+    font-weight: 500;
+    height: 35px;
+    padding-left:555px ;
+    margin: -8px;
+    text-decoration: underline red solid;
+    background-image:linear-gradient(to right,red, yellow,red);
+
+}
+.parent3{
+    border: solid 2px black;
+    margin-top: 20px;
+    height: 232px;
+    margin-left: -7px;
+    margin-right: -7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: radial-gradient(blue,rgb(92, 241, 92));
+}
+.data1{
+    height:160px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline rgb(179, 11, 11) solid;
+    border: 2px rgb(250, 20, 20) solid;
+    color: rgb(184, 44, 44);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: rgb(215, 236, 172);
+}
+.marks{
+    padding-left: 35px;
+    
+}
+.name{
+    padding-left: 15px;
+}
+.data2{
+    height:160px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline rgb(179, 11, 11) solid;
+    border: 2px rgb(250, 20, 20) solid;
+    color: rgb(184, 44, 44);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: rgb(215, 236, 172);
+}
+.data3{
+    height:160px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline rgb(179, 11, 11) solid;
+    border: 2px rgb(250, 20, 20) solid;
+    color: rgb(184, 44, 44);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: rgb(215, 236, 172);
+}
+.data4{
+    height:160px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline rgb(179, 11, 11) solid;
+    border: 2px rgb(250, 20, 20) solid;
+    color: rgb(184, 44, 44);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: rgb(215, 236, 172);
+}
+.main{
+    margin: -8px;
+    display: grid;
+    grid-template-rows: 50px 80px 140px 50px;
+    grid-template-columns: repeat(3, 150fr) 50fr;
+    grid-gap: 1em;
+
+}
+.head{
+    background-color: tomato;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    grid-column: 1/-1;
+    padding-top: 11px;
+}
+.box1{
+    background-color: rgb(67, 177, 67);
+    font-size: 20px;
+    color: white;
+    font-weight:700;
+    padding-left: 32px;
+    
+}
+.box2{
+    background-color: rgb(87, 87, 207);
+    font-size: 20px;
+    color: white;
+    font-weight:700 ;
+}
+.box3{
+    background-color: rgb(179, 71, 179);
+    font-size: 18px;
+    color: white;
+    font-weight:700 ;
+}
+.slider{
+    background-color:rgb(41, 39, 39);
+    font-size: 20px;
+    color: white;
+    grid-row: 2/4 ;
+    grid-column: 4/5;
+    
+
+}
+.content{
+    background-color: rgb(230, 116, 75);
+    font-size: 18px;
+    color: white;
+    font-weight:700 ;
+    grid-column: 1/4;
+}
+.bottom{
+    background-color: rgb(120, 168, 187);
+    font-size: 20px;
+    color:black;
+    font-weight:700 ;
+    text-align: center;
+    grid-column: 1/-1;
+    padding-top: 15px;
+}
+
